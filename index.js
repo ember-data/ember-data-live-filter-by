@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-data-live-filter'
+  name: 'ember-data-live-filter-by'
 };

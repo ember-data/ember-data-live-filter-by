@@ -1,4 +1,4 @@
-import liveFilterBy from 'ember-data-live-filter/live-filter-by';
+import liveFilterBy from 'ember-data-live-filter-by/live-filter-by';
 import DS from 'ember-data';
 
 export function initialize(/* container, application */) {

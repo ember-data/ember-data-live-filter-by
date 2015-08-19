@@ -1,4 +1,4 @@
-import FilteredSubset from 'ember-data-live-filter/filtered-subset';
+import FilteredSubset from 'ember-data-live-filter-by/filtered-subset';
 export default function liveFailterBy(key, value, options) {
   options = options || {};
 

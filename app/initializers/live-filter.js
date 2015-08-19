@@ -1,1 +1,1 @@
-export { default, initialize } from 'ember-data-live-filter/initializers/live-filter';
+export { default, initialize } from 'ember-data-live-filter-by/initializers/live-filter';
