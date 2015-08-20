@@ -6,7 +6,7 @@
 
 ### Ember CLI
 
-`ember install ember-data-filter`
+`ember install ember-data-live-filter-by`
 
 ## Why?
 
