@@ -37,7 +37,7 @@ App.Post = Ember.Model.extend({
 
 Durring the Ember Data 1.0.0 betas and in the Ember Data 1.13 release. Records that were marked as deleted locally but not yet saved to the backend were automatically removed from the `RecordArray`s returned by `store.peekAll('type')` and the `ManyArray`s returned by `hasMany` relationships. In Ember Data 2.0.0 records are not removed from these arrays until they have acknowledged as deleted by the backend. This plugin makes it easier to transition old code from Ember Data 1.13 to work with Ember Data 2.0.
 
-## I Don't Want to use this addon, are there alternateives?
+## I Don't Want to use this addon, are there alternatives?
 
 You can combine `store.peekAll` or a hasMany relationship with a computed property to acheive the same functionality:
 
