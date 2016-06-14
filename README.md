@@ -59,7 +59,7 @@ export default Ember.Controller.extend({
 ```js
 // app/models/post.js
 
-export default Ember.Controller.extend({
+export default DS.Model.extend({
 
   comments: DS.hasMany('comment'),
 
