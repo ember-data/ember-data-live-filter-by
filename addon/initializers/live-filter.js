@@ -4,7 +4,9 @@ import DS from 'ember-data';
 let initialized = false;
 
 export function initialize(/* container, application */) {
-  if (initialized) return;
+  if (initialized) {
+    return;
+  }
 
   DS.RecordArray.reopen({
     filterBy: liveFilterBy
